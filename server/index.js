@@ -7,6 +7,21 @@ const { Server } = require('socket.io')
 const { createRequestHandler } = require('@remix-run/express')
 require('dotenv').config()
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 const MODE = process.env.NODE_ENV
 const BUILD_DIR = path.join(process.cwd(), 'server/build')
 
